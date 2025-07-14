@@ -8,3 +8,9 @@
 - <figure> and <figcaption>
 - <audio>, <video> tags
 - Embedding YouTube, PDFs, etc. with <iframe>
+
+## TOPICS: 
+<table>, <thead>, <tbody>, <tfoot>
+<tr>, <th>, <td>
+Table attributes: colspan, rowspan
+Table styling best practices
