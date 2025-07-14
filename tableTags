@@ -1,0 +1,39 @@
+TABLE TAGS: 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th colspan="2">Contact</th> <!-- Merged 2 columns -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>22</td>
+      <td>Email</td>
+      <td>Phone</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Ben</td> <!-- Spans 2 rows -->
+      <td>25</td>
+      <td colspan="2">ben@example.com</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td colspan="2">Not Available</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">End of Table</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+Attributes: 
+colspan- merges multiple columns in a row
+rowspan- merges multiple rows in a column
+
