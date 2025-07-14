@@ -1,0 +1,48 @@
+1. <img> tag: for displaying images
+
+<img src="image.jpg" alt="A scenic mountain view" width="400" height="300">
+
+
+2. <figure> and <figcaption> tag : for images with caption
+
+<figure>
+  <img src="sunset.jpg" alt="Sunset at the beach" width="500">
+  <figcaption> A beautiful beach sunset </figcaption>
+</figure>
+
+
+3. <audio> tag: for embedding sound
+'controls'- show the audio player with controls so the user can play sound
+
+<audio controls>                                             // audio player
+  <source src="music.mp3" type="audio/mpeg">                 // audio file and format
+  Your browser does not support the audio element.           // message if audio not play 
+</audio>
+
+
+4. <video> tag: for embedding video
+width='600': sets the width of the video to 600 pixels.
+
+<video controls width="600">                                //Create a video player that is 600px wide and has built-in controls.
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+5. <iframe> tag: for embedding external content
+
+- FOR YT VIDEOS
+<iframe width="560" height="315"                          //sets size of video
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="YouTube video"                                   // video title for accessibility 
+  frameborder="0"                                         // no border around the video
+  allowfullscreen>                                        //  allow full screen mode
+</iframe>
+
+- FOR PDF FILE
+<iframe src="file.pdf" width="600" height="500">
+  This browser does not support PDFs. Please download the file.
+</iframe>
+
+
+
