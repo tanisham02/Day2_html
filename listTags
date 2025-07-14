@@ -1,0 +1,27 @@
+1- Ordered Lists
+
+<ol>                                  //defines ordered list
+  <li> Wake up </li>
+  <li> Brush teeth </li>                 //defines each item list
+  <li> Have breakfast </li>
+</ol>
+
+
+2- Unordered Lists
+
+<ul>                               //define unordered list
+  <li> Milk </li>
+  <li> Bread </li>                   //defines each item list
+  <li> Eggs </li>
+</ul>
+
+
+3- Description Lists
+
+<dl>                                //defines description list
+  <dt> HTML </dt>
+  <dd> HyperText Markup Language </dd>
+
+  <dt> CSS </dt>                    //defines term                
+  <dd> Cascading Style Sheets </dd>        //define description 
+</dl>
